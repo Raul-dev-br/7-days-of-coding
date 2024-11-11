@@ -1,0 +1,29 @@
+@import url("styles/header.css");
+@import url("styles/main.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --cor-fonte-principal:#667085;
+  --cor-fundo-botao:#8E2424;
+  --cor-fundo-titulo:#8E24240D;
+  --cor-borda:#EAECF0;
+  --cor-titulo:#101828;
+  --cor-fundo-terceiro:#C3191908;
+  --fonte-principal:'Inter';
+}
+
+/* ESTILOS GERAIS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color:var(--cor-fonte-principal);
+  font-family: var(--fonte-principal);
+  padding: 1 5em;
+}
+
+.container {
+  height:100vh;
+}
